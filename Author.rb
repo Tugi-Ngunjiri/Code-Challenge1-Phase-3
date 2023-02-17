@@ -28,7 +28,7 @@ autthor1 = Author.new
 
 # calling method using object/ Custom Method To create objects
 class Author
-    @@no_of_Authors= 0
+    @@no_of_Authors= 2
     def initialize(id, name, addr)
        @Author_id = id
        @Author_name = name
