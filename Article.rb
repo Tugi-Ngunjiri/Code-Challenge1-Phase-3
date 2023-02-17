@@ -6,6 +6,7 @@ end
 
  #defining method
  class Writing
+    def initialize(Writing)
     puts "Writing"
     pp "Writing"
  end
@@ -16,14 +17,14 @@ end
 
  # end of method
 end
-# creating object Author (Determining the number of objects being created)
+# creating object Article (Determining the number of objects being created)
 class Article
     @@no_of_articles= 2
    end
    
     # Creating Objects  in Ruby using new Method
-   Article = Article.new
-   Article = Article.new
+   Article1 = Article.new
+   Article2 = Article.new
    
    # calling method using object/ Custom Method To create objects
    class Article

@@ -5,7 +5,8 @@ class Author
 end
 
  #defining method
- class Writer
+ class  Author
+    def Initialize(Write)
     puts "Write"
     pp "Write"
  end
@@ -36,8 +37,8 @@ class Author
     end
  #Creating Objects
 
- Author1 = Author.new("1", "Maisy" "Tales of the fox , Random") 
-Author2 = Author.new("2", "John" "Tales of the Red Panda , Okinawa")
+ Author1 = Author.new("1", "Book1" "Tales of the fox , ") 
+Author2 = Author.new("2", "Book2" "Tales of the Red Panda ")
 
 #!/usr/bin/ruby
  class Author
@@ -57,6 +58,9 @@ object.hello
 class Author < ActiveRecord::Base
     @author = author.create(published_at: Time.now, author_id: @author.id)
 end
+class Author < ApplicationRecord
+    has_many :books
+  end
 
 # deleting an author
 @author.destroy
