@@ -56,6 +56,7 @@ liscence: ISC
 <br>
 2.Magazine
 <br>
+3.Articles
 
 ## Author
 
@@ -72,4 +73,28 @@ liscence: ISC
 -Returns the name of the author
 <br>
 
+## Magazine
 
+-Magazine
+<br>
+-Magazine#initialize(name, category)
+<br>
+-A magazine is initialized with a name as a string and a category as a string
+<br>
+-The name and category of the magazine can be changed after being initialized.
+<br>
+-Magazine#name
+<br>
+-Returns the name of this magazine
+<br>
+-Magazine#category
+<br>
+-Returns the category of this magazine
+<br>
+-Magazine. all
+<br>
+Returns an array of all Magazine instances
+<br>
+
+## Articles
+-Articles
