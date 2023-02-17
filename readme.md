@@ -20,12 +20,17 @@ liscence: ISC
 
 1.Making Classes and instances.
 
-
+<br>
 2. Making Classes and Instance methods.
 
 3.Creating Variable Scopes.
 
 4.Describing Object Relationships
 
+<br>
 5. Defining Arrays and Array Methods.
 
+## Project Set up
+
+
+--
