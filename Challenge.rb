@@ -1,21 +1,27 @@
- class class_name
+# Ruby program to illustrate methods
+# the defining of methods
 
- ## class name is Animal
-  class Animal
+# defining class Author
+ #defining method
+ # printing method
+ # end of method
+# creating object Author
+# calling method using object
+# Creating Association and Aggregate methods
 
-    ## class variables
-    @@type_of_animal = 5
-    @@no_of_animal = 10
-end
 
-object_name = Class_name.new
+# defining class Magazine
+#defining method
+ # printing method
+ # end of method
+ #creating object Magazine
+# calling method using object
+# Creating Association and Aggregate methods
 
-## Two Objects of  Animal class
-sanimal = Animal.new
-nanimal = Animal.new
-
-def method_name
-
-    # statements or code to be executed
-
-end
+# defining class Articles
+#defining method
+ # printing method
+ # end of method
+# creating object Articles
+# calling method using object
+# Creating Association and Aggregate methods
