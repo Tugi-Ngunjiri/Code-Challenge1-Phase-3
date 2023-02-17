@@ -41,7 +41,7 @@ liscence: ISC
 
 ## Deliverables 
 
-- Create  Classes and their respective methods.
+-Create  Classes and their respective methods.
 <br>
 - Set up your application so that it runs from a configured run file.
 <br>
