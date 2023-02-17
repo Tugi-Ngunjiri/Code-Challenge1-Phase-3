@@ -40,9 +40,9 @@ class Author
 Author2 = Author.new("2", "John" "Tales of the Red Panda , Okinawa")
 
 #!/usr/bin/ruby
- class Sample 
+ class Author
     def hello
-        puts"Hello Ruby!"
+        puts"Hello Author!"
     end
 end
 
@@ -53,3 +53,11 @@ object.hello
 
 
 # Creating Association and Aggregate methods
+
+class Author < ActiveRecord::Base
+    @author1 = author.create(published_at: Time.now, author_id: @author.id)
+end
+
+# deleting an author
+@author.destroy
+
