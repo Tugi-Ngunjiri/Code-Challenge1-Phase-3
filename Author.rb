@@ -6,13 +6,13 @@ end
 
  #defining method
  class Writer
-    puts "Writing"
-    pp "Writing"
+    puts "Write"
+    pp "Write"
  end
 
  # printing method
  puts "Author is writing!"
- pp "Author is writting!"
+ pp "Author is writing!"
 
  # end of method
 end
