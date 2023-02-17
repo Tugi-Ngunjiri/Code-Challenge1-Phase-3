@@ -23,7 +23,9 @@ liscence: ISC
 <br>
 2. Making Classes and Instance methods.
 
+
 3.Creating Variable Scopes.
+
 
 4.Describing Object Relationships
 
