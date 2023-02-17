@@ -53,7 +53,9 @@ liscence: ISC
 ## Initializing , Reading and writting code
 <br>
 1. Author
+
 2.Magazine
+
 3.Articles
 
 ## Author
