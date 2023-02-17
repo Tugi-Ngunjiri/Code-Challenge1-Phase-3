@@ -39,4 +39,17 @@ class Author
  Author1 = Author.new("1", "Maisy" "Tales of the fox , Random") 
 Author2 = Author.new("2", "John" "Tales of the Red Panda , Okinawa")
 
+#!/usr/bin/ruby
+ class Sample 
+    def hello
+        puts"Hello Ruby!"
+    end
+end
+
+# Now using above class to  class to create objects
+object = sample.new
+object.hello
+
+
+
 # Creating Association and Aggregate methods
