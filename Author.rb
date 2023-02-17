@@ -24,7 +24,7 @@ end
 
  # Creating Objects  in Ruby using new Method
 author1 = Author.new
-autthor1 = Author.new
+autthor2 = Author.new
 
 # calling method using object/ Custom Method To create objects
 class Author
@@ -55,7 +55,7 @@ object.hello
 # Creating Association and Aggregate methods
 
 class Author < ActiveRecord::Base
-    @author1 = author.create(published_at: Time.now, author_id: @author.id)
+    @author = author.create(published_at: Time.now, author_id: @author.id)
 end
 
 # deleting an author
