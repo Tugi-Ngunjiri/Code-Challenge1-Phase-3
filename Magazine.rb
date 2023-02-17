@@ -25,8 +25,11 @@ class Article
    end
    
     # Creating Objects  in Ruby using new Method
+    def initialize(magazine)
+    @magazine= magazine
    Magazine1 = Magazine.new
    Magazine2= Magazine.new
+    end
    # calling method using object/ Custom Method To create objects
    class Magazine
        def initialize( name)
@@ -52,7 +55,7 @@ object.hello
 
 
 # Creating Association and Aggregate methods
-class Magazine  < ActiveRecord::Base
+class Magazine  <ActiveRecord::Base
     @magazine = Magazine.create(published_at: Time.now, Magazine_name: @Magazine.name)
 end
 

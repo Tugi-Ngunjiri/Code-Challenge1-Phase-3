@@ -26,9 +26,11 @@ class Author
 end
 
  # Creating Objects  in Ruby using new Method
+ def initialize(Authors)
+    @author = author
 author1 = Author.new
 autthor2 = Author.new
-
+ end
 # calling method using object/ Custom Method To create objects
 class Author
     def initialize(id, name, addr)

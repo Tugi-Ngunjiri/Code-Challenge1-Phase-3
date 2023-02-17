@@ -25,9 +25,11 @@ class Article
    end
    
     # Creating Objects  in Ruby using new Method
+    def initialize(Article)
+        @article = Article
    Article1 = Article.new
    Article2 = Article.new
-   
+    end
    # calling method using object/ Custom Method To create objects
    class Article
        def initialize( name, addr)
