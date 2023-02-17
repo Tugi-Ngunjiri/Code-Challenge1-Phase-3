@@ -12,14 +12,16 @@ end
  end
 
  # printing method
+ def initialize(write)
  puts "Author is writing!"
  pp "Author is writing!"
-
+ end
  # end of method
 end
 
 # creating object Author (Determining the number of objects being created)
 class Author
+    def initialize(number of authors)
  @@no_of_authors = 2
 end
 
@@ -29,17 +31,16 @@ autthor2 = Author.new
 
 # calling method using object/ Custom Method To create objects
 class Author
-    @@no_of_Authors= 2
     def initialize(id, name, addr)
        @Author_id = id
        @Author_name = name
        @Author_addr = addr
     end
  #Creating Objects
-
+ def initialize(Authors)
  Author1 = Author.new("1", "Book1" "Tales of the fox , ") 
 Author2 = Author.new("2", "Book2" "Tales of the Red Panda ")
-
+ end
 #!/usr/bin/ruby
  class Author
     def hello

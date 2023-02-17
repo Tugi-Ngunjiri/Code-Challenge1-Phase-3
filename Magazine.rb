@@ -1,5 +1,6 @@
 # defining class Magazine
 class Magazine
+    def initialize(magazine)
     puts "Magazine"
     pp "Magazine"
 end
@@ -19,6 +20,7 @@ end
 end
 # creating object Magazine (Determining the number of objects being created)
 class Article
+    def initialize (number of magazines)
     @@no_of_Magazines= 2
    end
    
@@ -27,7 +29,6 @@ class Article
    Magazine2= Magazine.new
    # calling method using object/ Custom Method To create objects
    class Magazine
-       @@no_of_Magazines= 2
        def initialize( name)
           @Magazine_name = name
         

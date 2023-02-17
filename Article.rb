@@ -1,5 +1,6 @@
 # defining class Articles
 class Article
+    def initialize(article)
     puts "Article"
     pp "Article"
 end
@@ -19,6 +20,7 @@ end
 end
 # creating object Article (Determining the number of objects being created)
 class Article
+    def initialize(number of articles)
     @@no_of_articles= 2
    end
    
@@ -28,7 +30,6 @@ class Article
    
    # calling method using object/ Custom Method To create objects
    class Article
-       @@no_of_Articles= 2
        def initialize( name, addr)
           @Article_name = name
           @Article_addr = addr
