@@ -51,7 +51,6 @@ liscence: ISC
 - Feel Free to build any helper methods if needed.
 
 ## Initializing , Reading and writting code
-
 1. Author
 <br>
 2.Magazine
