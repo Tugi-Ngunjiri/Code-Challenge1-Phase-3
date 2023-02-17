@@ -63,8 +63,8 @@ liscence: ISC
 <br>
 -Author#initialize(name)
 <br>
--An author is initialized with a name, as a string<br>.
-
+-An author is initialized with a name, as a string
+<br>
 -A name cannot be changed after it is initialized.
 <br>
 -Author#name
