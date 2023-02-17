@@ -6,7 +6,7 @@ liscence: ISC
 
 ## Creating a Domain
 
--Magazine Domain Name:Models (3)-
+-Magazine Domain Name:Models (3);
 
 1.Authors(Articles)
 
@@ -31,4 +31,46 @@ liscence: ISC
 ## Project Set up
 
 
-- Create A New Project Folder;
+- Create A New Project Folder.
+<br>
+- Create a Git Hub Repository.
+<br>
+- Add Your Technical Mentor as a contributor.
+<br>
+- Make Regular commits while coding.
+
+## Deliverables 
+
+- Create  Classes and their respective methods.
+<br>
+- Set up your application so that it runs from a configured run file.
+<br>
+- Create instances of the classes on the run file and try out the methods you just created.
+<br>
+- Use the notation #for instance methods, and .(dot) for class methods.
+<br>
+- Feel Free to build any helper methods if needed.
+
+## Initializing , Reading and writting code
+
+1. Author
+<br>
+2.Magazine
+<br>
+
+## Author
+
+-Author
+<br>
+-Author#initialize(name)
+<br>
+-An author is initialized with a name, as a string<br>.
+
+-A name cannot be changed after it is initialized.
+<br>
+-Author#name
+<br>
+-Returns the name of the author
+<br>
+
+
