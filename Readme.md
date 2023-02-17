@@ -19,7 +19,6 @@ liscence: ISC
 -Description;
 
 1.Making Classes and instances.
-
 <br>
 2. Making Classes and Instance methods.
 
