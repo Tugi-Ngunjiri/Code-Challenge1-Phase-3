@@ -1,12 +1,14 @@
 # defining class Magazine
 class Magazine
-    def initialize(magazine)
-    puts "Magazine"
-    pp "Magazine"
+    attr_accessor:name
+    def initialize(name, category)
+        @name = name
+        @category = category
+    end
+    
 end
 
  #defining method
- class Reading
     def initialize(Read)
     puts "Read"
     pp "Read"
@@ -19,7 +21,6 @@ end
  # end of method
 end
 # creating object Magazine (Determining the number of objects being created)
-class Article
     def initialize (number of magazines)
     @@no_of_Magazines= 2
    end
@@ -31,7 +32,6 @@ class Article
    Magazine2= Magazine.new
     end
    # calling method using object/ Custom Method To create objects
-   class Magazine
        def initialize( name)
           @Magazine_name = name
         
@@ -40,12 +40,6 @@ class Article
 
 Magazine1 = Magazine.new("1", "Magazine About Modelling")
 Magazine2 = Magazine.new("2", "Magazine About Houses")
-#!/usr/bin/ruby
- class Article
-    def hello
-        puts" Hello ,Written Magazine!"
-    end
-end
 
 # Now using above class to  class to create objects
 object = sample.new
