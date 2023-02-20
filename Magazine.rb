@@ -1,12 +1,15 @@
 # defining class Magazine
 class Magazine
+
     attr_accessor:name
+
     def initialize(name, category)
         @name = name
         @category = category
     end
     
 end
+magazine1=Magazine.new("tech", "Api creating")
 
  #defining method
     def initialize(Read)
