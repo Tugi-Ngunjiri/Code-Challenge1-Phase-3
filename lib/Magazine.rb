@@ -52,7 +52,7 @@ object.hello
 
 
 # Creating Association and Aggregate methods
-class Magazine  <ActiveRecord::Base
+def  Magazine  <ActiveRecord::Base
     @magazine = Magazine.create(published_at: Time.now, Magazine_name: @Magazine.name)
 end
 

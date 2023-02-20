@@ -1,29 +1,13 @@
 # defining class Articles
 class Article
     def initialize(article)
-    puts "Article"
-    pp "Article"
+     attr_accessor : article
+     @article=article
+
 end
 
- #defining method
- class Writing
-    def initialize(Writing)
-    puts "Writing"
-    pp "Writing"
- end
+ 
 
- # printing method
- puts "Article is being written !"
- pp "Article is being written!"
-
- # end of method
-end
-# creating object Article (Determining the number of objects being created)
-class Article
-    def initialize(number of articles)
-    @@no_of_articles= 2
-   end
-   
     # Creating Objects  in Ruby using new Method
     def initialize(Article)
         @article = Article
@@ -31,7 +15,7 @@ class Article
    Article2 = Article.new
     end
    # calling method using object/ Custom Method To create objects
-   class Article
+    def Article
        def initialize( name, addr)
           @Article_name = name
           @Article_addr = addr
@@ -42,7 +26,6 @@ Article1 = Article.new("1", "Article on Animals")
 Article2 = Article.new("2", "Article  on Flowers")
 
 #!/usr/bin/ruby
- class Article
     def hello
         puts" Hello ,Written Article!"
     end
@@ -56,7 +39,7 @@ object.hello
 
 
 # Creating Association and Aggregate methods
-class Article < ActiveRecord::Base
+ def Article < ActiveRecord::Base
     @article = Article.create(published_at: Time.now, Article_name: @Article.name)
 end
 
