@@ -1,4 +1,4 @@
-require _relative "../lib/author"
-require_relative "../lib/article"
-require_relative "../lib/magazine"
+require_relative "../lib/Author.rb"
+require_relative "../lib/Article.rb"
+require_relative "../lib/Magazine.rb"
 
