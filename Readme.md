@@ -1,5 +1,8 @@
 ## Ruby Code-Challenge 1
 
+## Project Owner
+-Tugi Ngunjiri
+
  ## Liscence
 
 liscence: ISC 
